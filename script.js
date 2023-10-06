@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const email = document.getElementById("email").value;
       const fixe = document.getElementById("fixe").value;
       const portable = document.getElementById("portable").value;     
-      const adressePauCheckbox = document.getElementById("adressePau");
+      const adressePauCheckbox = document.getElementById("adressePau").checked;
       const template = document.getElementById("template").value;
 
       let signatureHTML = '';
