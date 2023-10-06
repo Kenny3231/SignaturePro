@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <b><span style="color:#4d4d4d">MGI France SA&nbsp;:</span></b>
                             <span style="color:#4d4d4d"> 11 rue de Téhéran - 75008 Paris</span>
                             <br>
-                            <b><span style="color:#4d4d4d">MGI France SA&nbsp; - CDS PAU:</span></b>
+                            <b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
                             <span style="color:#4d4d4d"> 77 avenue des Lilas - 64000 Pau</span>
                             <br>
                             <b><span style="color:#4d4d4d">MGI Sud-Ouest SAS&nbsp;:</span></b>
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <b><span style="color:#D5488B">MGI France SA&nbsp;:</span></b>
                         <span style="color:#D5488B"> 11 rue de Téhéran - 75008 Paris</span>
                         <br>                        
-                        <b><span style="color:#D5488B">MGI France SA&nbsp; - CDS PAU:</span></b>
+                        <b><span style="color:#D5488B">MGI France SA&nbsp;- CDS PAU:</span></b>
                         <span style="color:#D5488B"> 77 avenue des Lilas - 64000 Pau</span>
                         <br>
                         <b><span style="color:#D5488B">MGI Sud-Ouest SAS&nbsp;:</span></b>
