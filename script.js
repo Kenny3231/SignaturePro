@@ -11,8 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
       const email = document.getElementById("email").value;
       const fixe = document.getElementById("fixe").value;
       const portable = document.getElementById("portable").value;     
-      const adressePauCheckbox = document.getElementById("adressePau").checked;
+      const adressePauCheckbox = document.getElementById("adressePau");
       const template = document.getElementById("template").value;
+
+      // Récupérer l'état de la case à cocher
+      const afficherAdressePau = adressePauCheckbox.checked;
 
       let signatureHTML = '';
 
@@ -71,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <b><span style="color:#4d4d4d">MGI France SA&nbsp;:</span></b>
                             <span style="color:#4d4d4d"> 11 rue de Téhéran - 75008 Paris</span>
                             <br>
-                            ${adressePauCheckbox ? '<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
+                            ${afficherAdressePau ? '<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
                             <span style="color:#4d4d4d"> 77 avenue des Lilas - 64000 Pau</span>
                             <br>' : ''}
                             <b><span style="color:#4d4d4d">MGI Sud-Ouest SAS&nbsp;:</span></b>
@@ -145,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <b><span style="color:#D5488B">MGI France SA&nbsp;:</span></b>
                         <span style="color:#D5488B"> 11 rue de Téhéran - 75008 Paris</span>
                         <br>                        
-                        ${adressePauCheckbox ? '<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
+                        ${afficherAdressePau ? '<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
                         <span style="color:#4d4d4d"> 77 avenue des Lilas - 64000 Pau</span>
                         <br>' : ''}
                         <b><span style="color:#D5488B">MGI Sud-Ouest SAS&nbsp;:</span></b>
