@@ -93,3 +93,14 @@ h1 {
   margin-left: 4px;
   font-size: 16px;
 }
+
+#SuccessCopy {
+  flex: 1;
+  text-align: center;
+  display: none;
+  color: white;
+  background-color: #198754;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(23, 62, 240, 0.2);
+  padding: 10px;
+}
