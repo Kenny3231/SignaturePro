@@ -55,10 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
                     <tr>
                         <td style="padding-right:20pt">
-                        ${fixe ? '<span style="color:#4d4d4d">Tél. :</span>' : ''}
-                        <span style="color:#3388cc;text-decoration:none;letter-spacing:-0.5px">
-                          ${fixe ? fixe : ''}
-                        </span>
+                        ${fixe ? '<span style="color:#4d4d4d">Tél. :</span><span style="color:#3388cc;text-decoration:none;letter-spacing:-0.5px">fixe</span>' : ''}
                         </td>
                         <td>
                         ${portable ? '<span style="color:#4d4d4d">Port. :</span>' : ''}
