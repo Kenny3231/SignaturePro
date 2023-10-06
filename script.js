@@ -163,3 +163,14 @@ document.addEventListener("DOMContentLoaded", function() {
   signaturePreview.innerHTML = signatureHTML;
 });
 });
+
+function copyDivToClipboard() {
+ var range = document.createRange();
+ range.selectNode(document.getElementById("signaturePreview"));
+ window.getSelection().removeAllRanges(); // clear current selection
+ window.getSelection().addRange(range); // to select text
+ document.execCommand("copy");
+ window.getSelection().removeAllRanges();// to deselect
+ document.getElementById("SuccessCopy").innerHTML = "Votre signature a été copié dans le presse papier !";
+ document.getElementById("SuccessCopy").setAttribute("style", "display:block");
+};
