@@ -35,11 +35,6 @@ h1 {
 }
 
 .form {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.form {
   flex: 0 0 40%; /* Réduit la colonne du formulaire à 40% de la largeur */
   padding-right: 20px;
 }
@@ -92,6 +87,22 @@ h1 {
   color: red;
   margin-left: 4px;
   font-size: 16px;
+}
+
+.form-row {
+  margin-bottom: 10px; 
+  display: flex;
+}
+
+.form-row label {  
+  margin-top: 0; 
+  margin-right: 10px;
+}
+
+.form-row input[type="checkbox"] {
+  margin-top: 0; 
+  width: 15px;
+  height: 15px;
 }
 
 #SuccessCopy {
