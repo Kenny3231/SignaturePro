@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre le contenu horizontalement */
+  justify-content: center; /* Centre le contenu verticalement */
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center; /* Centre le texte horizontalement */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.form {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.form {
+  flex: 0 0 40%; /* Réduit la colonne du formulaire à 40% de la largeur */
+  padding-right: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form select {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signature-result {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(23, 62, 240, 0.2);
+  padding: 10px;
+}
+
+.signature-result h2 {
+  font-size: 20px;  
+  margin-top: 0; 
+}
+
+/* Style pour les champs obligatoires */
+.required-label::after {
+  content: "*";
+  color: red;
+  margin-left: 4px;
+  font-size: 16px;
+}
