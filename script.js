@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
                     <tr>
                         <td>
-                            <img src="https://drive.google.com/a/mgi.fr/uc?id=1T-tSNIC6xXJk3sWKy2L3crJ3jfPzumsi&export=download">
+                            <img src="Img/Logo MGI déposé INPI.png">
                         </td>
                     </tr>
                     <tr>
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
                 <tr>
                     <td>
-                        <img src="img/OctobreRose.png">
+                        <img src="Img/OctobreRose.png">
                     </td>
                 </tr>
                 <tr>
