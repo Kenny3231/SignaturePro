@@ -174,6 +174,6 @@ function copyDivToClipboard() {
  window.getSelection().addRange(range); // to select text
  document.execCommand("copy");
  window.getSelection().removeAllRanges();// to deselect
- document.getElementById("SuccessCopy").innerHTML = "Votre signature a été copié dans le presse papier !";
+ document.getElementById("SuccessCopy").innerHTML = "Votre signature a été copiée dans le presse papier !";
  document.getElementById("SuccessCopy").setAttribute("style", "display:block");
 };
