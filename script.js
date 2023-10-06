@@ -71,9 +71,9 @@ document.addEventListener("DOMContentLoaded", function() {
                             <b><span style="color:#4d4d4d">MGI France SA&nbsp;:</span></b>
                             <span style="color:#4d4d4d"> 11 rue de Téhéran - 75008 Paris</span>
                             <br>
-                            ${afficherAdressePau ? `<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
+                            ${adressePauCheckbox ? '<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
                             <span style="color:#4d4d4d"> 77 avenue des Lilas - 64000 Pau</span>
-                            <br>` : ''}
+                            <br>' : ''}
                             <b><span style="color:#4d4d4d">MGI Sud-Ouest SAS&nbsp;:</span></b>
                             <span style="color:#4d4d4d"> 2 rue Paul Mesplé - 31100 Toulouse</span> 
                             <br>
@@ -145,9 +145,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         <b><span style="color:#D5488B">MGI France SA&nbsp;:</span></b>
                         <span style="color:#D5488B"> 11 rue de Téhéran - 75008 Paris</span>
                         <br>                        
-                        ${afficherAdressePau ? `<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
+                        ${adressePauCheckbox ? '<b><span style="color:#4d4d4d">MGI France SA&nbsp;- CDS PAU:</span></b>
                         <span style="color:#4d4d4d"> 77 avenue des Lilas - 64000 Pau</span>
-                        <br>` : ''}
+                        <br>' : ''}
                         <b><span style="color:#D5488B">MGI Sud-Ouest SAS&nbsp;:</span></b>
                         <span style="color:#D5488B"> 2 rue Paul Mesplé - 31100 Toulouse</span> 
                         <br>
