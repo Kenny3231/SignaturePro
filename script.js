@@ -52,20 +52,22 @@ document.addEventListener("DOMContentLoaded", function() {
                         </td>
                     </tr>
                 </table>
-                <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
-                    <tr>
-                        <td style="padding-right:20pt">
-                        ${fixe ? '<span style="color:#4d4d4d">Tél. :</span><span style="color:#3388cc;text-decoration:none;letter-spacing:-0.5px">':''}
-                        ${fixe ? fixe : ''}
-                        ${fixe ? '</span>' : ''}
-                        </td>
-                        <td>
-                        ${portable ? '<span style="color:#4d4d4d">Port. :</span><span style="color:#3388cc;text-decoration:none;letter-spacing:-0.5px">' : ''}                        
-                        ${portable ? portable : ''}
-                        ${portable ? '</span>': ''}
-                    </td>
-                    </tr>
-                </table>
+                ${(fixe || portable) ? '<table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">' : ''}
+                ${(fixe || portable) ? '<tr>' : ''}
+                ${fixe ? '<td style="padding-right:20pt">' : ''}
+                ${fixe ? '<span style="color:#4d4d4d">Tél. :</span>' : ''}
+                ${fixe ? '<span style="color:#4d4d4d;text-decoration:none;letter-spacing:-0.5px">' : ''}
+                ${fixe ? fixe : ''}
+                ${fixe ? '</span>' : ''}
+                ${fixe ? '</td>' : ''}
+                ${portable ? '<td>' : ''}
+                ${portable ? '<span style="color:#4d4d4d">Port. :</span><span style="color:#4d4d4d;text-decoration:none;letter-spacing:-0.5px">' : ''}                        
+                ${portable ? portable : ''}
+                ${portable ? '</span>': ''}
+                ${portable ? '</td>' : ''}
+                ${(fixe || portable) ? '</tr>' : ''}
+                ${(fixe || portable) ? '</table>' : ''}
+
                 <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
                     <tr>
                         <td style="padding-top: 10pt">
@@ -122,21 +124,22 @@ document.addEventListener("DOMContentLoaded", function() {
                     </td>
                 </tr>
             </table>
-            <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
-                <tr>
-                    <td style="padding-right:20pt">
-                        ${fixe ? '<span style="color:#D5488B">Tél. :</span>' : ''}
-                        <span style="color:#D5488B;text-decoration:none;letter-spacing:-0.5px">
-                        ${fixe ? fixe : ''}
-                        ${fixe ? '</span>' : ''}
-                        </td>
-                        <td>
-                        ${portable ? '<span style="color:#D5488B">Port. :</span><span style="color:#D5488B;text-decoration:none;letter-spacing:-0.5px">' : ''}                        
-                        ${portable ? portable : ''}
-                        ${portable ? '</span>': ''}
-                    </td>
-                </tr>
-            </table>
+            ${(fixe || portable) ? '<table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">' : ''}
+            ${(fixe || portable) ? '<tr>' : ''}
+            ${fixe ? '<td style="padding-right:20pt">' : ''}
+            ${fixe ? '<span style="color:#D5488B">Tél. :</span>' : ''}
+            ${fixe ? '<span style="color:#D5488B;text-decoration:none;letter-spacing:-0.5px">' : ''}
+            ${fixe ? fixe : ''}
+            ${fixe ? '</span>' : ''}
+            ${fixe ? '</td>' : ''}
+            ${portable ? '<td>' : ''}
+            ${portable ? '<span style="color:#D5488B">Port. :</span><span style="color:#D5488B;text-decoration:none;letter-spacing:-0.5px">' : ''}                        
+            ${portable ? portable : ''}
+            ${portable ? '</span>': ''}
+            ${portable ? '</td>' : ''}
+            ${(fixe || portable) ? '</tr>' : ''}
+            ${(fixe || portable) ? '</table>' : ''}
+
             <table cellspacing="0" cellpadding="0" border="0" style="margin:0 5px 5px 0;display:inline; font-size:8.0pt; font-family:verdana,sans-serif">
                 <tr>
                     <td style="padding-top: 10pt">
