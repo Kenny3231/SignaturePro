@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <tbody>
             <tr >
               <td style='padding:.75pt .75pt .75pt .75pt'>
-                  <img src="Img/logo_cowigo.png">
+                  <img src="img/logo_cowigo.png">
               </td>
             </tr>
             <tr>
