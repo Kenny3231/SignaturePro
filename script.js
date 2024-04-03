@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </table>
         `;
     break;
-    case "Octobre Rose":
+    case "ClassicLyon":
       signatureHTML = `
         `;
         break;
