@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const nom = document.getElementById("nom").value;
       const prenom = document.getElementById("prenom").value;
       const fonction = document.getElementById("fonction").value;      
-      const email = document.getElementById("email").value;
+      // const email = document.getElementById("email").value;
       const fixe = document.getElementById("fixe").value;
       const portable = document.getElementById("portable").value;     
       const DefaultTelCheckbox = document.getElementById("DefaultTel");
