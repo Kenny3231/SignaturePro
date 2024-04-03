@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
       // const email = document.getElementById("email").value;
       const fixe = document.getElementById("fixe").value;
       const portable = document.getElementById("portable").value;     
-      const DefaultTelCheckbox = document.getElementById("DefaultTel");
+      // const DefaultTelCheckbox = document.getElementById("DefaultTel");
       const template = document.getElementById("template").value;
 
       // Récupérer l'état de la case à cocher
-      const affichertelDefaut = DefaultTelCheckbox.checked;
+      //const affichertelDefaut = DefaultTelCheckbox.checked;
 
       let signatureHTML = '';
 
