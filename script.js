@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <tr>
               <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
                 <p class=MsoNormal><b><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>${prenom} ${nom} </span></b><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif; color:#FF740D'>I</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'> ${fonction} <br>
-                </span><span style='font-size:7.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>271, avenue de Grande Bretagne – 31300 Toulouse</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'><br>
+                </span><span style='font-size:7.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>271 avenue de Grande Bretagne – 31300 Toulouse</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'><br>
                 </span><b>
                 ${fixe ? `<span style='font-size:7.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>Tél. :</span><span style='font-size:7.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>` : ''}
                 ${fixe ? fixe : ''}
