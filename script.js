@@ -76,6 +76,60 @@ document.addEventListener("DOMContentLoaded", function() {
         </table>
         `;
         break;
+        case "OctobreRoseTls":
+            signatureHTML = `
+          <table>   
+          <tbody>
+            <tr >
+              <td style='padding:.75pt .75pt .75pt .75pt'>
+                  <img src="img/logo_OctobreRose.png">
+              </td>
+            </tr>
+            <tr>
+              <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+                <p class=MsoNormal><b><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>${prenom} ${nom} </span></b><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif; color:#FF740D'>I</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'> ${fonction} <br>
+                </span><span style='font-size:7.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>271 avenue de Grande Bretagne – 31300 Toulouse</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'><br>
+                </span><b>
+                ${fixe ? '<span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">Tél :</span><span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">' : ''}
+                ${fixe ? fixe : ''}
+                ${fixe ? '</span>' : ''}
+                ${portable ? '<span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">Mobile :</span><span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">' : ''}                        
+                ${portable ? portable : ''}
+                ${portable ? '</span>': ''}
+                </b></p>               
+              </td>
+             </tr>
+          </tbody>
+        </table>
+        `;
+    break;
+    case "OctobreRoseLyon":
+      signatureHTML = `
+          <table>   
+          <tbody>
+            <tr >
+              <td style='padding:.75pt .75pt .75pt .75pt'>
+                  <img src="img/logo_OctobreRose.png">
+              </td>
+            </tr>
+            <tr>
+              <td valign=top style='padding:.75pt .75pt .75pt .75pt'>
+                <p class=MsoNormal><b><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>${prenom} ${nom} </span></b><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif; color:#FF740D'>I</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'> ${fonction} <br>
+                </span><span style='font-size:7.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>73 Cours Albert Thomas · 69003 Lyon</span><span style='font-size:9.0pt;line-height:107%;font-family:"Helvetica",sans-serif'><br>
+                </span><b>
+                ${fixe ? '<span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">Tél :</span><span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">' : ''}
+                ${fixe ? fixe : ''}
+                ${fixe ? '</span>' : ''}
+                ${portable ? '<span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">Mobile :</span><span style="font-size:7.0pt;line-height:107%;font-family:Helvetica,sans-serif">' : ''}                        
+                ${portable ? portable : ''}
+                ${portable ? '</span>': ''}
+                </b></p>               
+              </td>
+             </tr>
+          </tbody>
+        </table>
+        `;
+        break;
         default:
           signatureHTML = '<p>Modèle non valide</p>';
   }
