@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <tbody>
             <tr >
               <td style='padding:.75pt .75pt .75pt .75pt'>
-                  <img src="img/logo_cowigo.png">
+                  <img src="img/Logo_COWIGO.png">
               </td>
             </tr>
             <tr>
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <tbody>
             <tr >
               <td style='padding:.75pt .75pt .75pt .75pt'>
-                  <img src="img/logo_cowigo.png">
+                  <img src="img/Logo_COWIGO.png">
               </td>
             </tr>
             <tr>
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <tbody>
             <tr >
               <td style='padding:.75pt .75pt .75pt .75pt'>
-                  <img src="img/logo_OctobreRose.png">
+                  <img src="img/Logo_OctobreRose.png">
               </td>
             </tr>
             <tr>
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <tbody>
             <tr >
               <td style='padding:.75pt .75pt .75pt .75pt'>
-                  <img src="img/logo_OctobreRose.png">
+                  <img src="img/Logo_OctobreRose.png">
               </td>
             </tr>
             <tr>
